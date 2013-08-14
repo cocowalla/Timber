@@ -2,6 +2,8 @@
 [Bb]in/
 [Oo]bj/
 
+deploy/
+
 # mstest test results
 TestResults
 
