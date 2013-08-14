@@ -12,7 +12,7 @@
     <summary>log4net logging integration for Timber, the straightforward logging framework facade</summary>
     <description>Provides log4net logging integration for Timber, the straightforward logging framework facade</description>
     <copyright>Copyright 2013</copyright>
-    <tags>logging log4net nlog</tags>
+    <tags>logging log4net</tags>
     <dependencies>
       <dependency id="log4net" version="2.0.0" />
       <dependency id="Timber" version="0.0.1" />
