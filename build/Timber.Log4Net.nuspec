@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Timber.Log4net</id>
+    <title>Timber.Log4net</title>
+    <version>0.0.1</version>
+    <authors>Colin Anderson</authors>
+    <owners>cocowalla</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/cocowalla/Timber</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>log4net logging integration for Timber, the straightforward logging framework facade</summary>
+    <description>Provides log4net logging integration for Timber, the straightforward logging framework facade</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>logging log4net nlog</tags>
+    <dependencies>
+      <dependency id="log4net" version="2.0.0" />
+      <dependency id="Timber" version="0.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\deploy\**\Timber.Log4net.dll" target="lib\net40" />
+    <file src="..\deploy\**\Timber.Log4net.pdb" target="lib\net40" />
+    <file src="..\deploy\**\Timber.Log4net.xml" target="lib\net40" />
+  </files>
+</package>

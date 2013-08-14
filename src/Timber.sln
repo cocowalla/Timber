@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{2911A238-CB8E-4C40-ABDF-BBD09790E602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timber", "Timber\Timber.csproj", "{8C00A051-13CA-4702-B74C-FD672E843BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timber.Log4Net", "Timber.Log4Net\Timber.Log4Net.csproj", "{7AB7BDAC-23C6-471B-97CE-93FAD74BA5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timber.NLog", "Timber.NLog\Timber.NLog.csproj", "{013337DD-4F8A-40C5-81F9-1785A28F872E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{731CBB35-EF77-4DF3-B8A0-69C781868106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogSample", "Samples\NLogSample\NLogSample.csproj", "{24D0CD6F-ED1D-4980-90C5-6037B14328BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetSample", "Samples\Log4NetSample\Log4NetSample.csproj", "{58214EB0-D939-444A-86D4-6AF7F6D7B828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C00A051-13CA-4702-B74C-FD672E843BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C00A051-13CA-4702-B74C-FD672E843BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C00A051-13CA-4702-B74C-FD672E843BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C00A051-13CA-4702-B74C-FD672E843BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB7BDAC-23C6-471B-97CE-93FAD74BA5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB7BDAC-23C6-471B-97CE-93FAD74BA5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB7BDAC-23C6-471B-97CE-93FAD74BA5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB7BDAC-23C6-471B-97CE-93FAD74BA5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013337DD-4F8A-40C5-81F9-1785A28F872E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013337DD-4F8A-40C5-81F9-1785A28F872E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013337DD-4F8A-40C5-81F9-1785A28F872E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013337DD-4F8A-40C5-81F9-1785A28F872E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D0CD6F-ED1D-4980-90C5-6037B14328BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D0CD6F-ED1D-4980-90C5-6037B14328BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D0CD6F-ED1D-4980-90C5-6037B14328BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D0CD6F-ED1D-4980-90C5-6037B14328BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58214EB0-D939-444A-86D4-6AF7F6D7B828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58214EB0-D939-444A-86D4-6AF7F6D7B828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58214EB0-D939-444A-86D4-6AF7F6D7B828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58214EB0-D939-444A-86D4-6AF7F6D7B828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AB7BDAC-23C6-471B-97CE-93FAD74BA5DA} = {2911A238-CB8E-4C40-ABDF-BBD09790E602}
+		{013337DD-4F8A-40C5-81F9-1785A28F872E} = {2911A238-CB8E-4C40-ABDF-BBD09790E602}
+		{24D0CD6F-ED1D-4980-90C5-6037B14328BC} = {731CBB35-EF77-4DF3-B8A0-69C781868106}
+		{58214EB0-D939-444A-86D4-6AF7F6D7B828} = {731CBB35-EF77-4DF3-B8A0-69C781868106}
+	EndGlobalSection
+EndGlobal

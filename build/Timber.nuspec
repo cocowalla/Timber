@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Timber</id>
+    <title>Timber</title>
+    <version>0.0.1</version>
+    <authors>Colin Anderson</authors>
+    <owners>cocowalla</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/cocowalla/Timber</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Timber - straightforward logging framework facade</summary>
+    <description>Timber is a straightforward, no-frills logging framework facade. Timber provides adapters for the most popular 3rd party logging frameworks, NLog and log4net (available as separate packages: Timber.NLog and Timber.log4net)</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>logging log4net nlog</tags>
+  </metadata>
+  <files>
+    <file src="..\deploy\**\Timber.dll" target="lib\net40" />
+    <file src="..\deploy\**\Timber.pdb" target="lib\net40" />
+    <file src="..\deploy\**\Timber.xml" target="lib\net40" />
+  </files>
+</package>
