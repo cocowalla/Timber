@@ -30,7 +30,7 @@
 		<NuGet>$(ToolsFolder)\NuGet\NuGet.exe</NuGet>
 	</PropertyGroup>
 
-	<Target Name="build" DependsOnTargets="clean;compile;copy;nugetPackage" />
+	<Target Name="build" DependsOnTargets="clean;compile;copy;nugetPackage;publish" />
 
 	<Target Name="clean">
 		<Message Importance="High" Text="Cleaning output folder"/>
