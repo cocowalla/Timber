@@ -6,7 +6,7 @@ Timber is a straightforward, lean logging framework facade for .NET that makes t
 Why?
 ====
 
-NLog and log4net make you jump through hoops to log to the Windows Event Log (especially if you want to set event IDs), and existing facade don't provide anything to make it any easier.
+NLog and log4net make you jump through hoops to log to the Windows Event Log when you want to set event IDs on a message-by-message basis (why would you ever want to use one ID for all messages?!), and existing facade don't provide anything to make it any easier.
 
 An example using NLog:
 
