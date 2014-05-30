@@ -1,6 +1,8 @@
 Timber
 ======
 
+[![Build status](https://ci.appveyor.com/api/projects/status/oipkbs16rj41a1d9)](https://ci.appveyor.com/project/cocowalla/timber)
+
 Timber is a straightforward, lean logging framework facade for .NET that makes the Windows Event Log a first-class citizen for logging.
 
 Why?
